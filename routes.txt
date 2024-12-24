@@ -1,0 +1,20 @@
+HomePage:
+- Name
+- Profession & specialty
+- Link to Portfolio page
+- Link to About page
+- Link to Contact page
+
+Portfolio:
+- Employment record
+- Education record
+- Projects
+- Skills
+
+AboutPage:
+- Hobbies
+- Pictures (?)
+
+ContactPage:
+- Policy on contacting me
+- Twitter, LinkedIn, Discord, email
