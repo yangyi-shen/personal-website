@@ -12,22 +12,27 @@ const biographyItems = [
 
 const links = [
     {
+        name: 'Github',
         icon: faGithub,
         url: "https://github.com/yangyi-shen",
     },
     {
+        name: 'LinkedIn',
         icon: faLinkedin,
         url: "https://linkedin.com/in/yangyi-shen",
     },
     {
+        name: "Goodreads",
         icon: faGoodreads,
         url: "https://www.goodreads.com/user/show/39238499-yang-yi-shen",
     },
     {
+        name: 'Resumé',
         icon: faFile,
-        url: "cv.pdf",
+        url: "resume.pdf",
     },
     {
+        name: 'Email',
         icon: faEnvelope,
         url: "mailto:mrshenyangyi@gmail.com",
     },
@@ -46,8 +51,9 @@ const Banner: React.FC = () => {
             </ul>
             <ul className="flex gap-4 mt-4">
                 {links.map((link, index) => (
-                    <a href={link.url} target="_blank" key={index}>
-                        <FontAwesomeIcon icon={link.icon} className="h-5 text-slate-700 hover:text-slate-600" />
+                    <a className="flex gap-1.5 items-center" href={link.url} target="_blank" key={index}>
+                        <FontAwesomeIcon icon={link.icon} className="text-slate-500 hover:text-slate-600" />
+                        <p>{link.name}</p>
                     </a>
                 ))}
             </ul>
