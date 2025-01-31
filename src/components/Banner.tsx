@@ -47,7 +47,7 @@ const Banner: React.FC = () => {
             <ul className="flex gap-4 mt-4">
                 {links.map((link, index) => (
                     <a href={link.url} target="_blank" key={index}>
-                        <FontAwesomeIcon icon={link.icon} className="h-5 text-slate-800 hover:text-slate-600" />
+                        <FontAwesomeIcon icon={link.icon} className="h-5 text-slate-700 hover:text-slate-600" />
                     </a>
                 ))}
             </ul>
