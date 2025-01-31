@@ -6,7 +6,7 @@ The code for my personal website.
 
 - [x] Implement vite, react and tailwind css
 - [x] Create simple header with a logo
-- [ ] Create banner w/ self-introduction, my social media links, resume and email
+- [x] Create banner w/ self-introduction, my social media links, resume and email
 - [ ] Create "blog" section that generates from a blog.json file
 - [ ] Create "projects" section that generates from a projects.json file
 - [ ] Create footer with copyright and links to every section in website
