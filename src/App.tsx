@@ -2,6 +2,7 @@ import React from "react"
 
 import Header from "./components/Header"
 import Banner from "./components/Banner"
+import Projects from "./components/Projects"
 
 const App: React.FC = () => {
   return (
@@ -9,6 +10,7 @@ const App: React.FC = () => {
       <div className="w-[700px]">
         <Header />
         <Banner />
+        <Projects />
       </div>
     </main>
   )
