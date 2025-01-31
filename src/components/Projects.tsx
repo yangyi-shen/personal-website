@@ -26,7 +26,7 @@ const projectsList = [
 
 const Projects: React.FC = () => {
     return (
-        <section className="p-4">
+        <section className="p-4 mb-12">
             <p className="text-3xl font-bold mb-6">Projects</p>
             <div className="grid grid-cols-2 gap-6">
                 {
