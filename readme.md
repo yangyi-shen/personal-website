@@ -10,4 +10,3 @@ The code for my personal website.
 - [ ] Create "blog" section that generates from a blog.json file
 - [x] Create "projects" section that generates from a projects.json file
 - [x] Create footer with copyright and links to every section in website
-- [ ] Add 90s gifs/personal touch to website
