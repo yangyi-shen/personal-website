@@ -3,6 +3,7 @@ import React from "react"
 import Header from "./components/Header"
 import Banner from "./components/Banner"
 import Projects from "./components/Projects"
+import Blog from "./components/Blog"
 import Footer from "./components/Footer"
 
 const App: React.FC = () => {
@@ -12,6 +13,7 @@ const App: React.FC = () => {
         <Header />
         <Banner />
         <Projects />
+        <Blog />
         <Footer />
       </div>
     </main>
